@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+:root {
+    font-family: 'Oswald', sans-serif;
+}
+
+head, body, footer {
+    background-color: #161616;
+}
+
+#lower_logo {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+div {
+    background-color: white;
+}
+
+.in_header {
+    background-color: white;
+}
+
+.contacts {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.main_information {
+    color: black;
+}
+
+.in_footer {
+    color: white;
+}
