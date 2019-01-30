@@ -8,9 +8,14 @@ head, body, footer {
     background-color: #161616;
 }
 
+#balalaika_logo {
+    width: 80px;
+}
+
 #lower_logo {
     font-style: italic;
     font-weight: lighter;
+    margin-top: -40px;
 }
 
 div {
@@ -25,14 +30,28 @@ div {
     color: white;
 }
 
+#main_guitar {
+    min-height: 100vh;
+}
+
 h2 {
     color: white;
+    text-align: center;
 }
 
 .main_information {
     color: black;
 }
 
+
+
+.link {
+    width: 50px;
+}
+
+
+
 .in_footer {
     color: white;
+    text-align: center;
 }
