@@ -4,18 +4,35 @@
     font-family: 'Oswald', sans-serif;
 }
 
-head, body, footer {
+header, body, footer {
     background-color: #161616;
 }
 
-#balalaika_logo {
-    width: 80px;
+header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#higher_logo {
+    margin-top: -85px;
+    margin-left: 20px;
 }
 
 #lower_logo {
     font-style: italic;
     font-weight: lighter;
     margin-top: -40px;
+    margin-left: 40px;
+}
+
+#balalaika_logo {
+    width: 80px;
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+.contacts {
+    margin-right: 0px;
 }
 
 div {
@@ -26,8 +43,37 @@ div {
     background-color: white;
 }
 
+#contacts_div {
+    background-color: #161616;
+}
+
 .contacts {
     color: white;
+}
+
+#links_div {
+    height: 55px;
+    width: 200px;
+    background-color: #161616;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#phone {
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+#email {
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+.links {
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
 }
 
 #main_guitar {
@@ -43,15 +89,16 @@ h2 {
     color: black;
 }
 
-
-
-.link {
-    width: 50px;
+.form {
+    display: flex;
+    justify-content: center;
 }
-
-
 
 .in_footer {
     color: white;
     text-align: center;
+}
+
+#container {
+    background-color: #161616;
 }

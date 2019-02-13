@@ -5,47 +5,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Balalaika Guitars</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+    <div class="container" id="container">
     <header>
         <div>
+            <img id="balalaika_logo" src="img/balalaika_logo.png" alt="Balalaika Logo">
             <h1  id="higher_logo" class="in_header">Balalaika</h1>
             <h1 id="lower_logo" class="in_header">guitars</h1>
-            <img id="balalaika_logo" src="img/balalaika_logo.png" alt="Balalaika Logo">
         </div>
-        <p class="contacts">+38(098)4826838</p>
-        <p class="contacts">supermike5052@gmail.com</p>
-        <img class="link" src="img/facebook.png" alt="Facebook">
-        <img class="link" src="img/skype.png" alt="Skype">
-        <img class="link" src="img/instagram.png" alt="Instagram">
+        <div id="contacts_div">
+            <p class="contacts" id="phone">+38(098)4826838</p>
+            <p class="contacts" id="email">supermike5052@gmail.com</p>
+            <div id="links_div">
+                <img class="links" src="img/facebook.png" alt="Facebook">
+                <img class="links" src="img/skype.png" alt="Skype">
+                <img class="links" src="img/instagram.png" alt="Instagram">
+            </div>        
+        </div>
     </header>
     
     <main>
+        <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/main_guitar.jpeg" class="d-block w-100" alt="Main Guitar">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/main_guitar.jpeg" class="d-block w-100" alt="Main Guitar">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/main_guitar.jpeg" class="d-block w-100" alt="Main Guitar">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
         <div>
-            <img id="main_guitar" src="img/main_guitar.jpeg" alt="Main Guitar">
             <img class="brand" src="img/fender_logo.jpg" alt="Fender Logo">
             <img class="brand" src="img/gibson_logo.jpg" alt="Gibson Logo">
             <img class="brand" src="img/jackson_logo.gif" alt="Jackson Logo">
             <img class="brand" src="img/ibanez_logo.jpg" alt="Ibanez Logo">
         </div>
         <h2>New Arrivals</h2>
-        <div>
-            <img src="img/arrival_acoustic.jpg" alt="Arrival Acoustic">
-            <p>$1</p>
-        </div>
-        <div>
-            <img src="img/arrival_acoustic.jpg" alt="Arrival Acoustic">
-            <p>$1</p>
-        </div>
-        <div>
-            <img src="img/arrival_acoustic.jpg" alt="Arrival Acoustic">
-            <p>$1</p>
-        </div>
-        <div>
-            <img src="img/arrival_acoustic.jpg" alt="Arrival Acoustic">
-            <p>$1</p>
-        </div>
+        <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+            <img src="img/arrival_acoustic.jpg" class="card-img-top" alt="Acoustic Arrival">
+            <div class="card-body">
+                <h5 class="card-title">$1 acoustic</h5>
+                <p class="card-text">Just buy it</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+        </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+            <img src="img/arrival_acoustic.jpg" class="card-img-top" alt="Acoustic Arrival">
+            <div class="card-body">
+                <h5 class="card-title">$1 acoustic</h5>
+                <p class="card-text">Just buy it</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+        </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+            <img src="img/arrival_acoustic.jpg" class="card-img-top" alt="Acoustic Arrival">
+            <div class="card-body">
+                <h5 class="card-title">$1 acoustic</h5>
+                <p class="card-text">Just buy it</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+        </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+            <img src="img/arrival_acoustic.jpg" class="card-img-top" alt="Acoustic Arrival">
+            <div class="card-body">
+                <h5 class="card-title">$1 acoustic</h5>
+                <p class="card-text">Just buy it</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+        </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+            <img src="img/arrival_acoustic.jpg" class="card-img-top" alt="Acoustic Arrival">
+            <div class="card-body">
+                <h5 class="card-title">$1 acoustic</h5>
+                <p class="card-text">Just buy it</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+        </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+            <img src="img/arrival_acoustic.jpg" class="card-img-top" alt="Acoustic Arrival">
+            <div class="card-body">
+                <h5 class="card-title">$1 acoustic</h5>
+                <p class="card-text">Just buy it</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+        </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+            <img src="img/arrival_acoustic.jpg" class="card-img-top" alt="Acoustic Arrival">
+            <div class="card-body">
+                <h5 class="card-title">$1 acoustic</h5>
+                <p class="card-text">Just buy it</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+        </article>
+                <article class="card col-12 col-sm-6 col-md-4 col-lg-3" >
+            <img src="img/arrival_acoustic.jpg" class="card-img-top" alt="Acoustic Arrival">
+            <div class="card-body">
+                <h5 class="card-title">$1 acoustic</h5>
+                <p class="card-text">Just buy it</p>
+                <a href="#" class="btn btn-primary">Buy</a>
+            </div>
+        </article>
         <div>
             <h2 class="main_information">From Musicians For Musicians</h2>
             <p class="main_information">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu mauris, malesuada quis ornare accumsan, blandit sed diam.</p>
@@ -53,19 +127,21 @@
         <h2>Any Questions?</h2>
         <h2>Ask Us Now!</h2>
         <form method="POST" action="https://formspree.io/supermike5052@gmail.com">
-        <input type="text" name="Name" placeholder="Your Name">
-        <br>
-        <input type="email" name="Email" placeholder="Your Email">
-        <br>
-        <input type="text" name="Message" placeholder="Your Message">
-        <br>
-        <input type="submit" value="Send">
-        <br>
-    </form>
+            <input type="text" name="Name" placeholder="Your Name" class="form">
+            <input type="email" name="Email" placeholder="Your Email">
+            <input type="text" name="Message" placeholder="Your Message">
+            <input type="submit" value="Send" class="form">
+        </form>
     </main>
     
     <footer>
         <p class="in_footer">© 2019 Mykhailo-Taras Sobko</p>
     </footer>
+    </div>
+    
+   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.js"></script>
 </body>
 </html>
