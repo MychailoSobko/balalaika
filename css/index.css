@@ -10,7 +10,7 @@ header, body, footer {
 
 header {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 25% 75%;
 }
 
 #higher_logo {
@@ -21,13 +21,13 @@ header {
 #lower_logo {
     font-style: italic;
     font-weight: lighter;
-    margin-top: -40px;
+    margin-top: -30px;
     margin-left: 40px;
 }
 
 #balalaika_logo {
     width: 80px;
-    margin-left: 135px;
+    margin-left: 180px;
     margin-top: 20px;
 }
 
@@ -105,4 +105,11 @@ h2 {
 
 #brand {
     display: flex;
+    justify-content: space-around;
 }
+
+#form {
+    display: flex;
+    justify-content: center;
+}
+
