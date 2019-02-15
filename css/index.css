@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
 :root {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 header, body, footer {
@@ -101,4 +101,8 @@ h2 {
 
 #container {
     background-color: #161616;
+}
+
+#brand {
+    display: flex;
 }
